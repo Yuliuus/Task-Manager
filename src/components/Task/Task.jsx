@@ -7,7 +7,7 @@ export default function Task({ task }) {
       <input
         type="checkbox"
         className={css.checkbox}
-        checked={task.completed}
+        // checked={task.completed}
       />
       <p className={css.text}>{task.text}</p>
       <button className={css.btn}>
