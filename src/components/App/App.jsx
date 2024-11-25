@@ -1,7 +1,14 @@
-import "./App.css";
+import AppBar from "../AppBar/AppBar";
+import Layout from "../Layout/Layout";
 
 function App() {
-  return <h1>welcome to task manager</h1>;
+  return (
+    <>
+      <Layout>
+        <AppBar />
+      </Layout>
+    </>
+  );
 }
 
 export default App;
