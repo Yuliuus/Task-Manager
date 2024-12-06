@@ -19,7 +19,7 @@ export default function Task({ task }) {
       <input
         type="checkbox"
         className={css.checkbox}
-        onClick={handleToggle}
+        onChange={handleToggle}
         checked={task.completed}
       />
       <p className={css.text}>{task.text}</p>
